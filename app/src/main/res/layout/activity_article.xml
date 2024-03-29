@@ -11,7 +11,7 @@
         app:ab_statusBarColor="?colorSurface"
         app:ab_titleBarHeight="0dp" />
 
-    <per.goweii.wanandroid.widget.WebContainer
+    <com.pigeon.cloud.widget.WebContainer
         android:id="@+id/wc"
         android:layout_width="match_parent"
         android:layout_height="0dp"

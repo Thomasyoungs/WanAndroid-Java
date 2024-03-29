@@ -6,14 +6,14 @@
     android:layout_height="match_parent"
     android:background="?colorBackground"
     android:orientation="vertical"
-    tools:context=".module.main.activity.MainActivity">
+    tools:context="com.pigeon.cloud.module.main.activity.MainActivity">
 
     <per.goweii.actionbarex.ActionBarEx
         android:id="@+id/ab"
         style="@style/ActionBar"
         app:ab_titleBarLayout="@layout/action_bar_web" />
 
-    <per.goweii.wanandroid.widget.WebContainer
+    <com.pigeon.cloud.widget.WebContainer
         android:id="@+id/wc"
         android:layout_width="match_parent"
         android:layout_height="0dp"

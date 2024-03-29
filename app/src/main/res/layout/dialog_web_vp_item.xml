@@ -16,9 +16,9 @@
         app:cardBackgroundColor="?colorSurface"
         app:cardCornerRadius="@dimen/round_radius"
         app:cardElevation="0dp"
-        tools:context=".module.main.activity.MainActivity">
+        tools:context="com.pigeon.cloud.module.main.activity.MainActivity">
 
-        <per.goweii.wanandroid.widget.WebContainer
+        <com.pigeon.cloud.widget.WebContainer
             android:id="@+id/dialog_web_wc"
             android:layout_width="match_parent"
             android:layout_height="match_parent" />

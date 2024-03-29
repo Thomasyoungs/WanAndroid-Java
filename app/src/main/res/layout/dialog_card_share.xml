@@ -20,7 +20,7 @@
             android:layout_height="match_parent"
             app:srlEnablePureScrollMode="true">
 
-            <per.goweii.wanandroid.widget.ListenableNestedScrollView
+            <com.pigeon.cloud.widget.ListenableNestedScrollView
                 android:id="@+id/dialog_card_share_nsv_card"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
@@ -38,7 +38,7 @@
                     android:orientation="vertical"
                     tools:ignore="UselessLeaf" />
 
-            </per.goweii.wanandroid.widget.ListenableNestedScrollView>
+            </com.pigeon.cloud.widget.ListenableNestedScrollView>
 
         </com.scwang.smart.refresh.layout.SmartRefreshLayout>
 

@@ -7,13 +7,13 @@
     android:clipToPadding="false"
     android:orientation="vertical">
 
-    <per.goweii.basic.ui.widget.StatusBarView
+    <com.pigeon.basic.ui.widget.StatusBarView
         android:id="@+id/dialog_advert_sbv"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true" />
 
-    <per.goweii.wanandroid.widget.ParallaxStackLayout
+    <com.pigeon.cloud.widget.ParallaxStackLayout
         android:id="@+id/dialog_advert_psl"
         android:layout_width="match_parent"
         android:layout_height="match_parent"

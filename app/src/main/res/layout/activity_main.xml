@@ -7,4 +7,4 @@
     android:background="?attr/colorBackground"
     android:overScrollMode="never"
     android:scrollbars="none"
-    tools:context=".module.main.activity.MainActivity" />
+    tools:context="com.pigeon.cloud.module.main.activity.MainActivity" />

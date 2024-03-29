@@ -31,7 +31,7 @@
             app:abc_rightIconRes="@drawable/ic_search"
             app:abc_titleText="首页" />
 
-        <per.goweii.wanandroid.widget.bottomdrawer.BottomDrawerLayout
+        <com.pigeon.cloud.widget.bottomdrawer.BottomDrawerLayout
             android:id="@+id/dl"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -110,7 +110,7 @@
 
             </FrameLayout>
 
-        </per.goweii.wanandroid.widget.bottomdrawer.BottomDrawerLayout>
+        </com.pigeon.cloud.widget.bottomdrawer.BottomDrawerLayout>
 
     </LinearLayout>
 

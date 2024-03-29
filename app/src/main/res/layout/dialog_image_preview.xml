@@ -10,7 +10,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
-        <per.goweii.wanandroid.widget.ImagePreviewContainer
+        <com.pigeon.cloud.widget.ImagePreviewContainer
             android:layout_width="match_parent"
             android:layout_height="match_parent">
 
@@ -26,13 +26,13 @@
                 android:visibility="gone"
                 tools:visibility="visible" />
 
-            <per.goweii.wanandroid.widget.ImagePreviewView
+            <com.pigeon.cloud.widget.ImagePreviewView
                 android:id="@+id/dialog_image_preview_pv"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:src="?colorTransparent" />
 
-        </per.goweii.wanandroid.widget.ImagePreviewContainer>
+        </com.pigeon.cloud.widget.ImagePreviewContainer>
 
     </per.goweii.anylayer.widget.SwipeLayout>
 
@@ -42,7 +42,7 @@
         android:layout_height="wrap_content"
         android:orientation="vertical">
 
-        <per.goweii.basic.ui.widget.StatusBarView
+        <com.pigeon.basic.ui.widget.StatusBarView
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
 

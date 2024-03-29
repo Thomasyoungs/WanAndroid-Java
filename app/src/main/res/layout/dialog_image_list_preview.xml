@@ -11,7 +11,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
-        <per.goweii.basic.ui.widget.MultiTouchViewPager
+        <com.pigeon.basic.ui.widget.MultiTouchViewPager
             android:id="@+id/dialog_image_list_preview_vp"
             android:layout_width="match_parent"
             android:layout_height="match_parent" />

@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:background="?colorBackground"
-    tools:context=".module.main.activity.MainActivity">
+    tools:context="com.pigeon.cloud.module.main.activity.MainActivity">
 
     <androidx.viewpager.widget.ViewPager
         android:id="@+id/vp_tab"

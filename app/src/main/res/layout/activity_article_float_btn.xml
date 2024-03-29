@@ -230,7 +230,7 @@
             app:hl_shadowLimit="8dp"
             app:hl_shadowOffsetY="2dp">
 
-            <per.goweii.wanandroid.widget.CollectView
+            <com.pigeon.cloud.widget.CollectView
                 android:id="@+id/cv_collect"
                 android:layout_width="@dimen/button_height"
                 android:layout_height="@dimen/button_height"

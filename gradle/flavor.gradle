@@ -48,10 +48,10 @@ if (project.rootProject.file('local.properties').exists()) {
     CDKEY_CLASS = properties.getProperty('CDKEY_CLASS')
     DEVELOPER_ID = properties.getProperty('DEVELOPER_ID')
 } else {
-    KEYSTORE_FILE = "${rootProject.projectDir}/demo.jks"
-    KEYSTORE_FILE_PASSWORD = "123456"
-    KEYSTORE_ALIAS = "demo"
-    KEYSTORE_ALIAS_PASSWORD = "123456"
+    KEYSTORE_FILE = "${rootProject.projectDir}/pigeon_cloud.jks"
+    KEYSTORE_FILE_PASSWORD = "kaier123"
+    KEYSTORE_ALIAS = "kaier"
+    KEYSTORE_ALIAS_PASSWORD = "kaier123"
 }
 
 android {
@@ -93,7 +93,7 @@ android {
         }
         com {
             dimension "applicationId"
-            applicationId "com.goweii.wanandroid"
+            applicationId "com.pigeon.cloud"
             ext.buglyAppId = APPID_BUGLY_FOR_COM
             ext.buglyAppKey = APPKEY_BUGLY_FOR_COM
         }

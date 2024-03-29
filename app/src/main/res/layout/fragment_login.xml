@@ -44,7 +44,7 @@
 
     </LinearLayout>
 
-    <per.goweii.wanandroid.widget.AccountInputView
+    <com.pigeon.cloud.widget.AccountInputView
         android:id="@+id/piv_login_account"
         android:layout_width="match_parent"
         android:layout_height="44dp"
@@ -52,7 +52,7 @@
         android:layout_marginTop="100dp"
         android:layout_marginRight="60dp" />
 
-    <per.goweii.wanandroid.widget.PasswordInputView
+    <com.pigeon.cloud.widget.PasswordInputView
         android:id="@+id/piv_login_password"
         android:layout_width="match_parent"
         android:layout_height="44dp"
@@ -61,7 +61,7 @@
         android:layout_marginTop="10dp"
         android:layout_marginRight="60dp" />
 
-    <per.goweii.wanandroid.widget.SubmitView
+    <com.pigeon.cloud.widget.SubmitView
         android:id="@+id/sv_login"
         style="@style/ButtonMain"
         android:layout_below="@+id/piv_login_password"
