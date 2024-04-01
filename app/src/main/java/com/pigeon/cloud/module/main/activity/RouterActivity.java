@@ -12,7 +12,7 @@ import androidx.annotation.Nullable;
 
 import com.pigeon.basic.core.base.BaseActivity;
 import com.pigeon.basic.core.mvp.MvpPresenter;
-import com.pigeon.basic.utils.LogUtils;
+import com.pigeon.basic.core.utils.LogUtils;
 import com.pigeon.cloud.common.WanApp;
 import com.pigeon.cloud.utils.UrlOpenUtils;
 

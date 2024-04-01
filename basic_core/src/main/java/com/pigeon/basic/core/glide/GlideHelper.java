@@ -25,12 +25,11 @@ import com.bumptech.glide.request.target.BitmapImageViewTarget;
 import com.bumptech.glide.request.target.ImageViewTarget;
 import com.bumptech.glide.request.target.SimpleTarget;
 import com.bumptech.glide.request.transition.Transition;
-
 import com.pigeon.basic.core.glide.progress.OnProgressListener;
 import com.pigeon.basic.core.glide.progress.ProgressInterceptor;
-import com.pigeon.basic.utils.Utils;
-import com.pigeon.basic.utils.listener.SimpleCallback;
-import com.pigeon.basic.utils.listener.SimpleListener;
+import com.pigeon.basic.core.utils.Utils;
+import com.pigeon.basic.core.utils.listener.SimpleCallback;
+import com.pigeon.basic.core.utils.listener.SimpleListener;
 
 /**
  * Glide图片加载框架的帮助类

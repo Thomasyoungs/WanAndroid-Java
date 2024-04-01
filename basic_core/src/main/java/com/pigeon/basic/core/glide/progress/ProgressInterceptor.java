@@ -14,7 +14,7 @@ import java.util.Map;
 import okhttp3.Interceptor;
 import okhttp3.Request;
 import okhttp3.Response;
-import com.pigeon.basic.utils.LogUtils;
+import com.pigeon.basic.core.utils.LogUtils;
 
 /**
  * 描述：加载进度拦截器替换ProgressResponseBody

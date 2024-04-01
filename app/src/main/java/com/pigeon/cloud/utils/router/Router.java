@@ -6,9 +6,7 @@ import android.text.TextUtils;
 
 import androidx.annotation.Nullable;
 
-import com.pigeon.basic.utils.LogUtils;
-import com.pigeon.basic.utils.LogUtils;
-import com.pigeon.basic.utils.LogUtils;
+import com.pigeon.basic.core.utils.LogUtils;
 
 /**
  * @author yangzhikuan

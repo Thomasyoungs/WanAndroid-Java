@@ -12,7 +12,7 @@ import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 
-import com.pigeon.basic.utils.ResUtils;
+import com.pigeon.basic.core.utils.ResUtils;
 import com.pigeon.cloud.R;
 import com.pigeon.cloud.common.WanApp;
 import com.pigeon.cloud.utils.GuideSPUtils;

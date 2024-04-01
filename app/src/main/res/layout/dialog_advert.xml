@@ -7,7 +7,7 @@
     android:clipToPadding="false"
     android:orientation="vertical">
 
-    <com.pigeon.basic.ui.widget.StatusBarView
+    <com.pigeon.basic.core.widget.StatusBarView
         android:id="@+id/dialog_advert_sbv"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

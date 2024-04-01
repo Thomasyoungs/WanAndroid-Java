@@ -12,10 +12,10 @@ import android.widget.ImageView;
 import androidx.annotation.NonNull;
 import androidx.viewpager.widget.ViewPager;
 
-import com.pigeon.basic.utils.ResUtils;
-import com.pigeon.basic.utils.display.DisplayInfoUtils;
-import com.pigeon.basic.utils.listener.OnClickListener2;
-import com.pigeon.basic.utils.listener.SimpleCallback;
+import com.pigeon.basic.core.utils.ResUtils;
+import com.pigeon.basic.core.utils.display.DisplayInfoUtils;
+import com.pigeon.basic.core.utils.listener.OnClickListener2;
+import com.pigeon.basic.core.utils.listener.SimpleCallback;
 import com.pigeon.cloud.module.home.presenter.WebDialogPresenter;
 import com.pigeon.cloud.module.home.view.WebDialogView;
 import com.pigeon.cloud.module.main.model.ArticleBean;
@@ -26,24 +26,9 @@ import java.util.List;
 
 import per.goweii.anylayer.dialog.DialogLayer;
 import per.goweii.anylayer.utils.AnimatorHelper;
-import com.pigeon.basic.utils.ResUtils;
-import com.pigeon.basic.utils.display.DisplayInfoUtils;
-import com.pigeon.basic.utils.listener.OnClickListener2;
-import com.pigeon.basic.utils.listener.SimpleCallback;
+
 import com.pigeon.cloud.R;
-import com.pigeon.cloud.module.home.presenter.WebDialogPresenter;
-import com.pigeon.cloud.module.home.view.WebDialogView;
 import com.pigeon.cloud.module.main.adapter.WebDialogPagerAdapter;
-import com.pigeon.cloud.module.main.model.ArticleBean;
-import com.pigeon.cloud.widget.CollectView;
-import com.pigeon.basic.utils.ResUtils;
-import com.pigeon.basic.utils.display.DisplayInfoUtils;
-import com.pigeon.basic.utils.listener.OnClickListener2;
-import com.pigeon.basic.utils.listener.SimpleCallback;
-import com.pigeon.cloud.module.home.presenter.WebDialogPresenter;
-import com.pigeon.cloud.module.home.view.WebDialogView;
-import com.pigeon.cloud.module.main.model.ArticleBean;
-import com.pigeon.cloud.widget.CollectView;
 
 /**
  * @author yangzhikuan

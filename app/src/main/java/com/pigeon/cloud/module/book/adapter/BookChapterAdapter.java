@@ -10,7 +10,7 @@ import androidx.annotation.NonNull;
 
 import com.chad.library.adapter.base.BaseQuickAdapter;
 import com.chad.library.adapter.base.BaseViewHolder;
-import com.pigeon.basic.utils.ResUtils;
+import com.pigeon.basic.core.utils.ResUtils;
 import com.pigeon.cloud.R;
 import com.pigeon.cloud.module.book.model.BookChapterBean;
 

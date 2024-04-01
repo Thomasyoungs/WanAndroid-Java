@@ -5,23 +5,21 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.kennyc.view.MultiStateView;
+import com.pigeon.basic.core.utils.listener.SimpleListener;
 import com.pigeon.cloud.module.knowledge.activity.KnowledgeArticleActivity;
 
 import java.util.List;
 
 import butterknife.BindView;
 import com.pigeon.basic.core.base.BaseFragment;
-import com.pigeon.basic.ui.toast.ToastMaker;
-import com.pigeon.basic.utils.listener.SimpleListener;
+import com.pigeon.basic.core.toast.ToastMaker;
 import com.pigeon.cloud.R;
-import com.pigeon.cloud.module.knowledge.activity.KnowledgeArticleActivity;
 import com.pigeon.cloud.module.knowledge.adapter.KnowledgeAdapter;
 import com.pigeon.cloud.module.knowledge.presenter.KnowledgePresenter;
 import com.pigeon.cloud.module.knowledge.view.KnowledgeView;
 import com.pigeon.cloud.module.main.model.ChapterBean;
 import com.pigeon.cloud.utils.MultiStateUtils;
 import com.pigeon.cloud.utils.RvScrollTopUtils;
-import com.pigeon.cloud.module.knowledge.activity.KnowledgeArticleActivity;
 
 /**
  * @author yangzhikuan

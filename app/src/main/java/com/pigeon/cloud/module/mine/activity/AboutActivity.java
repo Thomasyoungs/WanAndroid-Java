@@ -11,8 +11,8 @@ import android.widget.TextView;
 import androidx.annotation.Nullable;
 
 import com.pigeon.basic.core.base.BaseActivity;
-import com.pigeon.basic.ui.dialog.TipDialog;
-import com.pigeon.basic.utils.AppInfoUtils;
+import com.pigeon.basic.core.dialog.TipDialog;
+import com.pigeon.basic.core.utils.AppInfoUtils;
 import com.pigeon.cloud.R;
 import com.pigeon.cloud.module.main.dialog.CardShareDialog;
 import com.pigeon.cloud.module.main.model.UpdateBean;

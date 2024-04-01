@@ -13,11 +13,11 @@ import per.goweii.anypermission.AnyPermission
 import per.goweii.anypermission.RequestListener
 import per.goweii.anypermission.RuntimeRequester
 import com.pigeon.basic.core.base.BaseActivity
-import com.pigeon.basic.utils.LogUtils
-import com.pigeon.basic.utils.bitmap.BitmapUtils
-import com.pigeon.basic.utils.ext.gone
-import com.pigeon.basic.utils.ext.invisible
-import com.pigeon.basic.utils.ext.visible
+import com.pigeon.basic.core.utils.LogUtils
+import com.pigeon.basic.core.utils.bitmap.BitmapUtils
+import com.pigeon.basic.core.utils.ext.gone
+import com.pigeon.basic.core.utils.ext.invisible
+import com.pigeon.basic.core.utils.ext.visible
 import per.goweii.codex.decoder.CodeDecoder
 import per.goweii.codex.decorator.beep.BeepDecorator
 import per.goweii.codex.decorator.gesture.GestureDecorator
@@ -231,7 +231,7 @@ class ScanActivity : BaseActivity<ScanPresenter>(), ScanView, SwipeBackAbility.D
             }
             REQ_CODE_SELECT_PIC -> {
                 PictureSelector.result(resultCode, data)?.let {
-                    BitmapUtils.getBitmapFromUri(context, it)?.let { bitmap ->
+                    com.pigeon.basic.core.utils.bitmap.BitmapUtils.getBitmapFromUri(context, it)?.let { bitmap ->
                         val decoder = CodeDecoder(ZXingMultiDecodeQRCodeProcessor())
                         decoder.decode(bitmap, onSuccess = { results ->
                             onAlbumQRCodeSuccess(results.first().text)

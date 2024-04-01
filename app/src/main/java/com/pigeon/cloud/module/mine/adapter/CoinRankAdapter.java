@@ -14,16 +14,12 @@ import androidx.annotation.Nullable;
 
 import com.chad.library.adapter.base.BaseQuickAdapter;
 import com.chad.library.adapter.base.BaseViewHolder;
-import com.pigeon.basic.utils.ResUtils;
+import com.pigeon.basic.core.utils.ResUtils;
 import com.pigeon.cloud.module.main.model.CoinInfoBean;
 
 import java.util.List;
 
-import com.pigeon.basic.utils.ResUtils;
 import com.pigeon.cloud.R;
-import com.pigeon.cloud.module.main.model.CoinInfoBean;
-import com.pigeon.basic.utils.ResUtils;
-import com.pigeon.cloud.module.main.model.CoinInfoBean;
 
 /**
  * @author yangzhikuan

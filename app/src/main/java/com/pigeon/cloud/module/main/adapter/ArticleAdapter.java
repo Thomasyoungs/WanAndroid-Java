@@ -11,8 +11,8 @@ import androidx.annotation.Nullable;
 
 import com.chad.library.adapter.base.BaseQuickAdapter;
 import com.chad.library.adapter.base.BaseViewHolder;
-import com.pigeon.basic.utils.StringUtils;
-import com.pigeon.basic.utils.listener.OnClickListener2;
+import com.pigeon.basic.core.utils.StringUtils;
+import com.pigeon.basic.core.utils.listener.OnClickListener2;
 import com.pigeon.cloud.R;
 import com.pigeon.cloud.event.CollectionEvent;
 import com.pigeon.cloud.module.home.activity.UserPageActivity;

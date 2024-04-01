@@ -1,7 +1,7 @@
 package com.pigeon.cloud.db.executor
 
-import com.pigeon.basic.utils.listener.SimpleCallback
-import com.pigeon.basic.utils.listener.SimpleListener
+import com.pigeon.basic.core.utils.listener.SimpleCallback
+import com.pigeon.basic.core.utils.listener.SimpleListener
 import com.pigeon.cloud.db.WanDb.db
 import com.pigeon.cloud.db.model.ReadLaterModel
 
@@ -11,7 +11,7 @@ import com.pigeon.cloud.db.model.ReadLaterModel
  */
 class ReadLaterExecutor : DbExecutor() {
 
-    fun findByLink(link: String, success: SimpleCallback<List<ReadLaterModel>>, error: SimpleListener) {
+    fun findByLink(link: String, success: com.pigeon.basic.core.utils.listener.SimpleCallback<List<ReadLaterModel>>, error: com.pigeon.basic.core.utils.listener.SimpleListener) {
         execute({
             db().readLaterDao().findByLink(link)
         }, {
@@ -21,7 +21,7 @@ class ReadLaterExecutor : DbExecutor() {
         })
     }
 
-    fun add(link: String, title: String, success: SimpleCallback<ReadLaterModel>, error: SimpleListener) {
+    fun add(link: String, title: String, success: com.pigeon.basic.core.utils.listener.SimpleCallback<ReadLaterModel>, error: com.pigeon.basic.core.utils.listener.SimpleListener) {
         execute({
             val model = ReadLaterModel(link, title, System.currentTimeMillis())
             db().readLaterDao().insert(model)
@@ -33,7 +33,7 @@ class ReadLaterExecutor : DbExecutor() {
         })
     }
 
-    fun remove(link: String, success: SimpleListener, error: SimpleListener) {
+    fun remove(link: String, success: com.pigeon.basic.core.utils.listener.SimpleListener, error: com.pigeon.basic.core.utils.listener.SimpleListener) {
         execute({
             db().readLaterDao().delete(link)
         }, {
@@ -43,7 +43,7 @@ class ReadLaterExecutor : DbExecutor() {
         })
     }
 
-    fun removeAll(success: SimpleListener, error: SimpleListener) {
+    fun removeAll(success: com.pigeon.basic.core.utils.listener.SimpleListener, error: com.pigeon.basic.core.utils.listener.SimpleListener) {
         execute({
             db().readLaterDao().deleteAll()
         }, {
@@ -53,7 +53,7 @@ class ReadLaterExecutor : DbExecutor() {
         })
     }
 
-    fun getList(from: Int, count: Int, success: SimpleCallback<List<ReadLaterModel>>, error: SimpleListener) {
+    fun getList(from: Int, count: Int, success: com.pigeon.basic.core.utils.listener.SimpleCallback<List<ReadLaterModel>>, error: com.pigeon.basic.core.utils.listener.SimpleListener) {
         execute({
             db().readLaterDao().findAll(from, count)
         }, {
@@ -63,7 +63,7 @@ class ReadLaterExecutor : DbExecutor() {
         })
     }
 
-    fun findLately(count: Int, success: SimpleCallback<List<ReadLaterModel>>, error: SimpleListener) {
+    fun findLately(count: Int, success: com.pigeon.basic.core.utils.listener.SimpleCallback<List<ReadLaterModel>>, error: com.pigeon.basic.core.utils.listener.SimpleListener) {
         execute({
             db().readLaterDao().findLately(count)
         }, {

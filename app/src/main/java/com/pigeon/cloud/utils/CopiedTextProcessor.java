@@ -8,13 +8,9 @@ import android.text.TextUtils;
 
 import androidx.annotation.NonNull;
 
-import com.pigeon.basic.utils.LogUtils;
-import com.pigeon.basic.utils.Utils;
-import com.pigeon.basic.utils.LogUtils;
-import com.pigeon.basic.utils.Utils;
+import com.pigeon.basic.core.utils.LogUtils;
+import com.pigeon.basic.core.utils.Utils;
 import com.pigeon.cloud.utils.wanpwd.WanPwdParser;
-import com.pigeon.basic.utils.LogUtils;
-import com.pigeon.basic.utils.Utils;
 
 /**
  * @author yangzhikuan

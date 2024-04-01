@@ -13,7 +13,7 @@ import android.widget.EditText;
 import android.widget.FrameLayout;
 import android.widget.ImageView;
 
-import com.pigeon.basic.utils.ResUtils;
+import com.pigeon.basic.core.utils.ResUtils;
 import com.pigeon.cloud.R;
 
 /**

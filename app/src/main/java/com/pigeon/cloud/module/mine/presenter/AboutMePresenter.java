@@ -5,12 +5,12 @@ import android.text.TextUtils;
 
 import com.pigeon.basic.core.base.BasePresenter;
 import com.pigeon.basic.core.glide.GlideHelper;
-import com.pigeon.basic.ui.toast.ToastMaker;
-import com.pigeon.basic.utils.AppInfoUtils;
-import com.pigeon.basic.utils.AppOpenUtils;
-import com.pigeon.basic.utils.CopyUtils;
-import com.pigeon.basic.utils.bitmap.BitmapUtils;
-import com.pigeon.basic.utils.listener.SimpleCallback;
+import com.pigeon.basic.core.toast.ToastMaker;
+import com.pigeon.basic.core.utils.AppInfoUtils;
+import com.pigeon.basic.core.utils.AppOpenUtils;
+import com.pigeon.basic.core.utils.CopyUtils;
+import com.pigeon.basic.core.utils.bitmap.BitmapUtils;
+import com.pigeon.basic.core.utils.listener.SimpleCallback;
 import com.pigeon.cloud.http.RequestCallback;
 import com.pigeon.cloud.module.mine.model.AboutMeBean;
 import com.pigeon.cloud.module.mine.model.MineRequest;

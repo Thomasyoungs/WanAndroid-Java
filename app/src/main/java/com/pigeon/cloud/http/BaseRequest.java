@@ -10,15 +10,12 @@ import java.util.List;
 
 import io.reactivex.Observable;
 import io.reactivex.disposables.Disposable;
-import com.pigeon.basic.core.receiver.LoginReceiver;
-import com.pigeon.basic.core.utils.JsonFormatUtils;
-import com.pigeon.basic.utils.LogUtils;
+
+import com.pigeon.basic.core.utils.LogUtils;
 import per.goweii.rxhttp.core.RxLife;
 import per.goweii.rxhttp.request.RxRequest;
 import per.goweii.rxhttp.request.exception.ExceptionHandle;
 import com.pigeon.cloud.utils.UserUtils;
-import com.pigeon.basic.core.receiver.LoginReceiver;
-import com.pigeon.basic.core.utils.JsonFormatUtils;
 
 /**
  * @author yangzhikuan

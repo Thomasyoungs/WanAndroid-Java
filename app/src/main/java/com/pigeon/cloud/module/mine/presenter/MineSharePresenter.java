@@ -1,7 +1,7 @@
 package com.pigeon.cloud.module.mine.presenter;
 
 import com.pigeon.basic.core.base.BasePresenter;
-import com.pigeon.basic.ui.toast.ToastMaker;
+import com.pigeon.basic.core.toast.ToastMaker;
 import com.pigeon.cloud.event.ArticleDeleteEvent;
 import com.pigeon.cloud.event.CollectionEvent;
 import com.pigeon.cloud.http.RequestListener;
@@ -11,30 +11,9 @@ import com.pigeon.cloud.module.main.model.UserPageBean;
 import com.pigeon.cloud.module.mine.model.MineRequest;
 import com.pigeon.cloud.module.mine.view.MineShareView;
 import com.pigeon.cloud.widget.CollectView;
-import com.pigeon.basic.core.base.BasePresenter;
-import com.pigeon.basic.ui.toast.ToastMaker;
+
 import per.goweii.rxhttp.request.base.BaseBean;
 import per.goweii.rxhttp.request.exception.ExceptionHandle;
-import com.pigeon.cloud.event.ArticleDeleteEvent;
-import com.pigeon.cloud.event.CollectionEvent;
-import com.pigeon.cloud.http.RequestListener;
-import com.pigeon.cloud.module.main.model.ArticleBean;
-import com.pigeon.cloud.module.main.model.MainRequest;
-import com.pigeon.cloud.module.main.model.UserPageBean;
-import com.pigeon.cloud.module.mine.model.MineRequest;
-import com.pigeon.cloud.module.mine.view.MineShareView;
-import com.pigeon.cloud.widget.CollectView;
-import com.pigeon.basic.core.base.BasePresenter;
-import com.pigeon.basic.ui.toast.ToastMaker;
-import com.pigeon.cloud.event.ArticleDeleteEvent;
-import com.pigeon.cloud.event.CollectionEvent;
-import com.pigeon.cloud.http.RequestListener;
-import com.pigeon.cloud.module.main.model.ArticleBean;
-import com.pigeon.cloud.module.main.model.MainRequest;
-import com.pigeon.cloud.module.main.model.UserPageBean;
-import com.pigeon.cloud.module.mine.model.MineRequest;
-import com.pigeon.cloud.module.mine.view.MineShareView;
-import com.pigeon.cloud.widget.CollectView;
 
 /**
  * @author yangzhikuan

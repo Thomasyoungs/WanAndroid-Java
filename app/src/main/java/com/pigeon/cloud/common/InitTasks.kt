@@ -4,11 +4,11 @@ import android.app.Activity
 import android.app.Application
 import android.os.Bundle
 import com.pigeon.basic.core.CoreInit
-import com.pigeon.basic.utils.AsyncInitTask
-import com.pigeon.basic.utils.DebugUtils
-import com.pigeon.basic.utils.LogUtils
-import com.pigeon.basic.utils.SyncInitTask
-import com.pigeon.basic.utils.listener.SimpleCallback
+import com.pigeon.basic.core.utils.AsyncInitTask
+import com.pigeon.basic.core.utils.DebugUtils
+import com.pigeon.basic.core.utils.LogUtils
+import com.pigeon.basic.core.utils.SyncInitTask
+import com.pigeon.basic.core.utils.listener.SimpleCallback
 import com.pigeon.cloud.BuildConfig
 import com.pigeon.cloud.db.WanDb
 import com.pigeon.cloud.http.RxHttpRequestSetting
@@ -195,7 +195,7 @@ class WanCacheInitTask : SyncInitTask() {
 class CoreInitTask : SyncInitTask() {
     override fun init(application: Application) {
         CoreInit.getInstance().onGoLoginCallback =
-            SimpleCallback { data ->
+            com.pigeon.basic.core.utils.listener.SimpleCallback { data ->
                 UserUtils.getInstance().doIfLogin(data)
             }
     }

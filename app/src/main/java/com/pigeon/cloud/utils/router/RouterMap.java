@@ -7,14 +7,12 @@ import android.text.TextUtils;
 
 import androidx.annotation.NonNull;
 
-import com.pigeon.basic.utils.Utils;
-import com.pigeon.basic.utils.Utils;
+import com.pigeon.basic.core.utils.Utils;
 import com.pigeon.cloud.module.home.activity.UserPageActivity;
 import com.pigeon.cloud.module.main.activity.ArticleListActivity;
 import com.pigeon.cloud.module.main.activity.WebActivity;
 import com.pigeon.cloud.module.mine.activity.AboutMeActivity;
 import com.pigeon.cloud.module.mine.activity.SettingActivity;
-import com.pigeon.basic.utils.Utils;
 
 /**
  * @author yangzhikuan

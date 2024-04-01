@@ -9,7 +9,7 @@ import org.greenrobot.eventbus.Subscribe
 import org.greenrobot.eventbus.ThreadMode
 import com.pigeon.basic.core.base.BaseFragment
 import com.pigeon.basic.core.utils.SmartRefreshUtils
-import com.pigeon.basic.utils.listener.SimpleListener
+import com.pigeon.basic.core.utils.listener.SimpleListener
 import com.pigeon.cloud.R
 import com.pigeon.cloud.event.MessageDeleteEvent
 import com.pigeon.cloud.module.main.model.ListBean
@@ -86,7 +86,7 @@ class MessageReadedFragment : BaseFragment<MessageReadedPresenter>(), MessageRea
         }
         rv.adapter = mAdapter
         MultiStateUtils.setEmptyAndErrorClick(msv,
-            SimpleListener {
+            com.pigeon.basic.core.utils.listener.SimpleListener {
                 MultiStateUtils.toLoading(msv)
                 currPage = PAGE_START
                 presenter.getMessageReadList(currPage)

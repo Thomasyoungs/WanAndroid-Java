@@ -9,7 +9,7 @@ import android.text.TextUtils
 import android.view.View
 import androidx.annotation.RequiresApi
 import com.pigeon.basic.core.base.BaseActivity
-import com.pigeon.basic.utils.Base64Utils.decodeToBytes
+import com.pigeon.basic.core.utils.Base64Utils.decodeToBytes
 import per.goweii.swipeback.SwipeBackAbility
 import per.goweii.swipeback.SwipeBackDirection
 import com.pigeon.cloud.event.LoginEvent

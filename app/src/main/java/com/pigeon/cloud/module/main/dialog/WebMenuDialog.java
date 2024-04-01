@@ -10,7 +10,7 @@ import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 
-import com.pigeon.basic.utils.ResUtils;
+import com.pigeon.basic.core.utils.ResUtils;
 import com.pigeon.cloud.utils.SettingUtils;
 import com.pigeon.cloud.utils.UserUtils;
 import com.pigeon.cloud.utils.web.HostInterceptUtils;
@@ -18,17 +18,10 @@ import com.pigeon.cloud.utils.web.HostInterceptUtils;
 import per.goweii.anylayer.AnyLayer;
 import per.goweii.anylayer.Layer;
 import per.goweii.anylayer.widget.SwipeLayout;
-import com.pigeon.basic.utils.ResUtils;
+
 import com.pigeon.cloud.R;
 import com.pigeon.cloud.module.mine.activity.HostInterruptActivity;
 import com.pigeon.cloud.module.mine.activity.SettingActivity;
-import com.pigeon.cloud.utils.SettingUtils;
-import com.pigeon.cloud.utils.UserUtils;
-import com.pigeon.cloud.utils.web.HostInterceptUtils;
-import com.pigeon.basic.utils.ResUtils;
-import com.pigeon.cloud.utils.SettingUtils;
-import com.pigeon.cloud.utils.UserUtils;
-import com.pigeon.cloud.utils.web.HostInterceptUtils;
 
 /**
  * @author yangzhikuan

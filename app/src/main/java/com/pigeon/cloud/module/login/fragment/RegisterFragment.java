@@ -9,8 +9,8 @@ import android.widget.LinearLayout;
 import androidx.annotation.Nullable;
 
 import com.pigeon.basic.core.base.BaseFragment;
-import com.pigeon.basic.ui.toast.ToastMaker;
-import com.pigeon.basic.utils.InputMethodUtils;
+import com.pigeon.basic.core.toast.ToastMaker;
+import com.pigeon.basic.core.utils.InputMethodUtils;
 import com.pigeon.cloud.R;
 import com.pigeon.cloud.event.LoginEvent;
 import com.pigeon.cloud.module.login.activity.AuthActivity;

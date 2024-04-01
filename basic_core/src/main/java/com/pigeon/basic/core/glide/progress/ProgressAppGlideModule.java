@@ -14,7 +14,7 @@ import com.bumptech.glide.module.AppGlideModule;
 import java.io.InputStream;
 
 import okhttp3.OkHttpClient;
-import com.pigeon.basic.utils.LogUtils;
+import com.pigeon.basic.core.utils.LogUtils;
 import per.goweii.rxhttp.request.utils.HttpsCompat;
 
 /**

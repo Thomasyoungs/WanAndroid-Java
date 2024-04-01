@@ -4,7 +4,7 @@ import android.text.TextUtils;
 
 import androidx.annotation.NonNull;
 
-import com.pigeon.basic.utils.LogUtils;
+import com.pigeon.basic.core.utils.LogUtils;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -12,9 +12,7 @@ import java.util.Objects;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-import com.pigeon.basic.utils.LogUtils;
 import com.pigeon.cloud.BuildConfig;
-import com.pigeon.basic.utils.LogUtils;
 
 /**
  * @author yangzhikuan

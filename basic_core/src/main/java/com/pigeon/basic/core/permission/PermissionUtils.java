@@ -6,7 +6,7 @@ import android.os.Build;
 
 import androidx.annotation.NonNull;
 
-import com.pigeon.basic.ui.dialog.PermissionDialog;
+import com.pigeon.basic.core.dialog.PermissionDialog;
 
 import java.util.Arrays;
 
@@ -14,9 +14,8 @@ import per.goweii.anypermission.AnyPermission;
 import per.goweii.anypermission.RequestInterceptor;
 import per.goweii.anypermission.RequestListener;
 import per.goweii.anypermission.RuntimeRequester;
-import com.pigeon.basic.ui.dialog.PermissionDialog;
-import com.pigeon.basic.utils.listener.SimpleCallback;
-import com.pigeon.basic.ui.dialog.PermissionDialog;
+
+import com.pigeon.basic.core.utils.listener.SimpleCallback;
 
 /**
  * @author yangzhikuan

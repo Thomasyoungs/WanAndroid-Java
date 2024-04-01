@@ -5,24 +5,17 @@ import android.app.Activity;
 import android.os.Bundle;
 
 import com.pigeon.basic.core.CoreInit;
+import com.pigeon.basic.core.dialog.LoadingDialog;
 import com.pigeon.basic.core.mvp.MvpActivity;
 import com.pigeon.basic.core.utils.LoadingBarManager;
-import com.pigeon.basic.ui.dialog.LoadingDialog;
 
 import org.greenrobot.eventbus.EventBus;
 
 import butterknife.ButterKnife;
 import butterknife.Unbinder;
-import com.pigeon.basic.core.CoreInit;
-import com.pigeon.basic.core.mvp.MvpActivity;
+
 import com.pigeon.basic.core.receiver.LoginReceiver;
-import com.pigeon.basic.core.utils.LoadingBarManager;
-import com.pigeon.basic.ui.dialog.LoadingDialog;
-import com.pigeon.basic.utils.listener.SimpleCallback;
-import com.pigeon.basic.core.CoreInit;
-import com.pigeon.basic.core.mvp.MvpActivity;
-import com.pigeon.basic.core.utils.LoadingBarManager;
-import com.pigeon.basic.ui.dialog.LoadingDialog;
+import com.pigeon.basic.core.utils.listener.SimpleCallback;
 
 /**
  * @author yangzhikuan

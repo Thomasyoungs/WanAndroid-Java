@@ -11,7 +11,7 @@ import android.widget.EditText;
 
 import androidx.appcompat.widget.AppCompatTextView;
 
-import com.pigeon.basic.utils.EditTextUtils;
+import com.pigeon.basic.core.utils.EditTextUtils;
 import com.pigeon.cloud.R;
 
 /**

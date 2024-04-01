@@ -7,17 +7,13 @@ import android.widget.EditText;
 
 import androidx.annotation.NonNull;
 
-import com.pigeon.basic.utils.InputMethodUtils;
-import com.pigeon.basic.utils.listener.SimpleCallback;
+import com.pigeon.basic.core.utils.InputMethodUtils;
+import com.pigeon.basic.core.utils.listener.SimpleCallback;
+import com.pigeon.cloud.R;
 
 import per.goweii.anylayer.AnyLayer;
 import per.goweii.anylayer.Layer;
 import per.goweii.anylayer.widget.SwipeLayout;
-import com.pigeon.basic.utils.InputMethodUtils;
-import com.pigeon.basic.utils.listener.SimpleCallback;
-import com.pigeon.cloud.R;
-import com.pigeon.basic.utils.InputMethodUtils;
-import com.pigeon.basic.utils.listener.SimpleCallback;
 
 /**
  * @author yangzhikuan

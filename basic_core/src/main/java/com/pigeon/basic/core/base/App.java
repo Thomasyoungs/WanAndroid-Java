@@ -17,7 +17,7 @@ import androidx.multidex.MultiDex;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.pigeon.basic.utils.ProcessUtils;
+import com.pigeon.basic.core.utils.ProcessUtils;
 
 /**
  * @author yangzhikuan

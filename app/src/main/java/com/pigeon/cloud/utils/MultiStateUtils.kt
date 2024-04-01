@@ -6,10 +6,10 @@ import android.view.View
 import android.widget.ImageView
 import android.widget.TextView
 import com.kennyc.view.MultiStateView
-import com.pigeon.basic.utils.ext.gone
-import com.pigeon.basic.utils.ext.visible
-import com.pigeon.basic.utils.listener.OnClickListener2
-import com.pigeon.basic.utils.listener.SimpleListener
+import com.pigeon.basic.core.utils.ext.gone
+import com.pigeon.basic.core.utils.ext.visible
+import com.pigeon.basic.core.utils.listener.OnClickListener2
+import com.pigeon.basic.core.utils.listener.SimpleListener
 import com.pigeon.cloud.R
 
 /**
@@ -88,15 +88,15 @@ class MultiStateUtils {
         }
 
         @JvmStatic
-        fun setEmptyAndErrorClick(view: MultiStateView, listener: SimpleListener) {
+        fun setEmptyAndErrorClick(view: MultiStateView, listener: com.pigeon.basic.core.utils.listener.SimpleListener) {
             setEmptyClick(view, listener)
             setErrorClick(view, listener)
         }
 
         @JvmStatic
-        fun setEmptyClick(view: MultiStateView, listener: SimpleListener) {
+        fun setEmptyClick(view: MultiStateView, listener: com.pigeon.basic.core.utils.listener.SimpleListener) {
             val empty = view.getView(MultiStateView.VIEW_STATE_EMPTY)
-            empty?.setOnClickListener(object : OnClickListener2() {
+            empty?.setOnClickListener(object : com.pigeon.basic.core.utils.listener.OnClickListener2() {
                 override fun onClick2(v: View) {
                     listener.onResult()
                 }
@@ -104,9 +104,9 @@ class MultiStateUtils {
         }
 
         @JvmStatic
-        fun setErrorClick(view: MultiStateView, listener: SimpleListener) {
+        fun setErrorClick(view: MultiStateView, listener: com.pigeon.basic.core.utils.listener.SimpleListener) {
             val error = view.getView(MultiStateView.VIEW_STATE_ERROR)
-            error?.setOnClickListener(object : OnClickListener2() {
+            error?.setOnClickListener(object : com.pigeon.basic.core.utils.listener.OnClickListener2() {
                 override fun onClick2(v: View) {
                     listener.onResult()
                 }

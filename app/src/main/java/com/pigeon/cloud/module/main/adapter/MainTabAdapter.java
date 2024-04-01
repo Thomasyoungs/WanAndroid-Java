@@ -9,21 +9,11 @@ import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 
 import com.pigeon.basic.core.adapter.TabFragmentPagerAdapter;
-import com.pigeon.basic.utils.ResUtils;
+import com.pigeon.basic.core.utils.ResUtils;
 import com.pigeon.cloud.common.Config;
 import com.pigeon.cloud.module.main.model.TabEntity;
 import com.pigeon.cloud.utils.RvScrollTopUtils;
-import com.pigeon.basic.core.adapter.TabFragmentPagerAdapter;
-import com.pigeon.basic.utils.ResUtils;
 import com.pigeon.cloud.R;
-import com.pigeon.cloud.common.Config;
-import com.pigeon.cloud.module.main.model.TabEntity;
-import com.pigeon.cloud.utils.RvScrollTopUtils;
-import com.pigeon.basic.core.adapter.TabFragmentPagerAdapter;
-import com.pigeon.basic.utils.ResUtils;
-import com.pigeon.cloud.common.Config;
-import com.pigeon.cloud.module.main.model.TabEntity;
-import com.pigeon.cloud.utils.RvScrollTopUtils;
 
 /**
  * @author yangzhikuan

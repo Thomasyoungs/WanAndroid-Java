@@ -3,7 +3,7 @@ package com.pigeon.cloud.module.mine.presenter;
 import java.util.List;
 
 import com.pigeon.basic.core.base.BasePresenter;
-import com.pigeon.basic.ui.toast.ToastMaker;
+import com.pigeon.basic.core.toast.ToastMaker;
 import per.goweii.rxhttp.request.base.BaseBean;
 import per.goweii.rxhttp.request.exception.ExceptionHandle;
 import com.pigeon.cloud.event.CollectionEvent;

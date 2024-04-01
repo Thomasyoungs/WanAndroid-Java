@@ -5,7 +5,7 @@ import com.bumptech.glide.Glide
 import com.bumptech.glide.load.engine.DiskCacheStrategy
 import com.bumptech.glide.request.RequestOptions
 import com.tencent.smtt.export.external.interfaces.WebResourceResponse
-import com.pigeon.basic.utils.Utils
+import com.pigeon.basic.core.utils.Utils
 import java.io.InputStream
 
 object ImageCacheManager {

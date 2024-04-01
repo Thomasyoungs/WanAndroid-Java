@@ -4,7 +4,7 @@ import android.content.Context;
 import android.text.TextUtils;
 
 import com.google.gson.Gson;
-import com.pigeon.basic.utils.SPUtils;
+import com.pigeon.basic.core.utils.SPUtils;
 import com.pigeon.cloud.module.login.activity.AuthActivity;
 import com.pigeon.cloud.module.login.model.LoginBean;
 import com.pigeon.cloud.module.login.model.UserEntity;

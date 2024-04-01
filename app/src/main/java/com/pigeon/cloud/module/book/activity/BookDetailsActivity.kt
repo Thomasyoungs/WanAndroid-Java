@@ -9,7 +9,7 @@ import kotlinx.android.synthetic.main.activity_book_details.*
 import org.greenrobot.eventbus.Subscribe
 import org.greenrobot.eventbus.ThreadMode
 import com.pigeon.basic.core.base.BaseActivity
-import com.pigeon.basic.utils.ResUtils
+import com.pigeon.basic.core.utils.ResUtils
 import com.pigeon.cloud.R
 import com.pigeon.cloud.event.ReadRecordAddedEvent
 import com.pigeon.cloud.event.ReadRecordUpdateEvent

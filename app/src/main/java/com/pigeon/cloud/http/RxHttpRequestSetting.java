@@ -11,11 +11,10 @@ import java.util.Map;
 
 import okhttp3.CacheControl;
 import okhttp3.OkHttpClient;
-import com.pigeon.basic.core.common.Config;
-import com.pigeon.basic.utils.DebugUtils;
+
+import com.pigeon.basic.core.utils.DebugUtils;
 import per.goweii.rxhttp.request.setting.DefaultRequestSetting;
 import per.goweii.rxhttp.request.utils.HttpsCompat;
-import com.pigeon.basic.core.common.Config;
 
 /**
  * 描述：

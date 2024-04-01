@@ -4,7 +4,7 @@ import android.text.Html
 import android.text.TextUtils
 import com.chad.library.adapter.base.BaseQuickAdapter
 import com.chad.library.adapter.base.BaseViewHolder
-import com.pigeon.basic.utils.StringUtils
+import com.pigeon.basic.core.utils.StringUtils
 import com.pigeon.cloud.R
 import com.pigeon.cloud.module.mine.model.MessageBean
 

@@ -8,8 +8,8 @@ import java.util.List;
 
 import io.reactivex.functions.Consumer;
 import io.reactivex.plugins.RxJavaPlugins;
-import com.pigeon.basic.utils.LogUtils;
-import com.pigeon.basic.utils.Utils;
+import com.pigeon.basic.core.utils.LogUtils;
+import com.pigeon.basic.core.utils.Utils;
 
 /**
  * 描述：

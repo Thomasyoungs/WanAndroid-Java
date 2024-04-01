@@ -5,13 +5,9 @@ import android.text.TextUtils;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import com.pigeon.basic.utils.SPUtils;
+import com.pigeon.basic.core.utils.SPUtils;
 import com.pigeon.cloud.utils.UserUtils;
-import com.pigeon.basic.utils.SPUtils;
 import com.pigeon.cloud.BuildConfig;
-import com.pigeon.cloud.utils.UserUtils;
-import com.pigeon.basic.utils.SPUtils;
-import com.pigeon.cloud.utils.UserUtils;
 
 /**
  * @author yangzhikuan

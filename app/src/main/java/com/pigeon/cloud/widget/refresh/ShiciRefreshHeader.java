@@ -12,6 +12,7 @@ import androidx.annotation.ColorInt;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
+import com.pigeon.basic.core.utils.display.DisplayInfoUtils;
 import com.scwang.smart.drawable.ProgressDrawable;
 import com.scwang.smart.refresh.classics.ArrowDrawable;
 import com.scwang.smart.refresh.layout.api.RefreshHeader;
@@ -19,8 +20,7 @@ import com.scwang.smart.refresh.layout.api.RefreshLayout;
 import com.scwang.smart.refresh.layout.constant.RefreshState;
 import com.scwang.smart.refresh.layout.simple.SimpleComponent;
 
-import com.pigeon.basic.utils.ResUtils;
-import com.pigeon.basic.utils.display.DisplayInfoUtils;
+import com.pigeon.basic.core.utils.ResUtils;
 import com.pigeon.cloud.R;
 
 public class ShiciRefreshHeader extends SimpleComponent implements RefreshHeader {

@@ -11,7 +11,7 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 
-import com.pigeon.basic.utils.ClickHelper;
+import com.pigeon.basic.core.utils.ClickHelper;
 import per.goweii.lazyfragment.LazyFragment;
 
 /**

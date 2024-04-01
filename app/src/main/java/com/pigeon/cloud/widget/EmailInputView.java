@@ -7,7 +7,7 @@ import android.util.TypedValue;
 import android.view.View;
 import android.widget.ImageView;
 
-import com.pigeon.basic.utils.ResUtils;
+import com.pigeon.basic.core.utils.ResUtils;
 import com.pigeon.cloud.R;
 
 /**

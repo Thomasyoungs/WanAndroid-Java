@@ -30,10 +30,10 @@ import per.goweii.anypermission.RequestListener
 import per.goweii.anypermission.RuntimeRequester
 import com.pigeon.basic.core.glide.GlideHelper
 import com.pigeon.basic.core.permission.PermissionUtils
-import com.pigeon.basic.ui.toast.ToastMaker
-import com.pigeon.basic.utils.ResUtils
-import com.pigeon.basic.utils.ShareUtils
-import com.pigeon.basic.utils.bitmap.BitmapUtils
+import com.pigeon.basic.core.toast.ToastMaker
+import com.pigeon.basic.core.utils.ResUtils
+import com.pigeon.basic.core.utils.ShareUtils
+import com.pigeon.basic.core.utils.bitmap.BitmapUtils
 import per.goweii.codex.encoder.CodeEncoder
 import per.goweii.codex.processor.zxing.ZXingEncodeQRCodeProcessor
 import com.pigeon.cloud.R
@@ -161,7 +161,7 @@ class ArticleShareDialog(
     private fun saveBitmap(bitmap: Bitmap) {
         runtimeRequester = PermissionUtils.request(object : RequestListener {
             override fun onSuccess() {
-                if (BitmapUtils.saveGallery(bitmap, "wanandroid_app_" + System.currentTimeMillis())) {
+                if (com.pigeon.basic.core.utils.bitmap.BitmapUtils.saveGallery(bitmap, "wanandroid_app_" + System.currentTimeMillis())) {
                     ToastMaker.showShort("保存成功")
                 } else {
                     ToastMaker.showShort("保存失败")

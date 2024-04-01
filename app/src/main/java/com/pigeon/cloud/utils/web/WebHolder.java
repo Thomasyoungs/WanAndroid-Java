@@ -27,8 +27,8 @@ import androidx.annotation.RequiresApi;
 import androidx.webkit.WebSettingsCompat;
 import androidx.webkit.WebViewFeature;
 
-import com.pigeon.basic.utils.LogUtils;
-import com.pigeon.basic.utils.ResUtils;
+import com.pigeon.basic.core.utils.LogUtils;
+import com.pigeon.basic.core.utils.ResUtils;
 import com.pigeon.cloud.R;
 import com.pigeon.cloud.common.WanApp;
 import com.pigeon.cloud.module.main.dialog.ImagePreviewDialog;

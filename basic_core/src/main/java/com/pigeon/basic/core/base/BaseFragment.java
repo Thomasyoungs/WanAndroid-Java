@@ -1,15 +1,12 @@
 package com.pigeon.basic.core.base;
 
-import com.pigeon.basic.ui.dialog.LoadingDialog;
-
 import org.greenrobot.eventbus.EventBus;
 
 import butterknife.ButterKnife;
 import butterknife.Unbinder;
 import com.pigeon.basic.core.mvp.MvpFragment;
 import com.pigeon.basic.core.utils.LoadingBarManager;
-import com.pigeon.basic.ui.dialog.LoadingDialog;
-import com.pigeon.basic.ui.dialog.LoadingDialog;
+import com.pigeon.basic.core.dialog.LoadingDialog;
 
 /**
  * @author yangzhikuan

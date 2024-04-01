@@ -19,22 +19,15 @@ import androidx.fragment.app.FragmentTransaction;
 
 import com.pigeon.basic.core.base.BaseActivity;
 import com.pigeon.basic.core.mvp.MvpPresenter;
-import com.pigeon.basic.utils.EditTextUtils;
-import com.pigeon.basic.utils.InputMethodUtils;
+import com.pigeon.basic.core.utils.EditTextUtils;
+import com.pigeon.basic.core.utils.InputMethodUtils;
 
 import butterknife.BindView;
 import per.goweii.actionbarex.common.ActionIconView;
-import com.pigeon.basic.core.base.BaseActivity;
-import com.pigeon.basic.core.mvp.MvpPresenter;
-import com.pigeon.basic.utils.EditTextUtils;
-import com.pigeon.basic.utils.InputMethodUtils;
+
 import com.pigeon.cloud.R;
 import com.pigeon.cloud.module.home.fragment.SearchHistoryFragment;
 import com.pigeon.cloud.module.home.fragment.SearchResultFragment;
-import com.pigeon.basic.core.base.BaseActivity;
-import com.pigeon.basic.core.mvp.MvpPresenter;
-import com.pigeon.basic.utils.EditTextUtils;
-import com.pigeon.basic.utils.InputMethodUtils;
 
 /**
  * @author yangzhikuan

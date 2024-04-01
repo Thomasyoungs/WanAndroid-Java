@@ -1,8 +1,9 @@
 package com.pigeon.cloud.module.mine.presenter;
 
 import com.pigeon.basic.core.base.BasePresenter;
-import com.pigeon.basic.utils.listener.SimpleCallback;
-import com.pigeon.basic.utils.listener.SimpleListener;
+
+import com.pigeon.basic.core.utils.listener.SimpleCallback;
+import com.pigeon.basic.core.utils.listener.SimpleListener;
 import com.pigeon.cloud.db.executor.ReadRecordExecutor;
 import com.pigeon.cloud.db.model.ReadRecordModel;
 import com.pigeon.cloud.module.mine.view.ReadRecordView;

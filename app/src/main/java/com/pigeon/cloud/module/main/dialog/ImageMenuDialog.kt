@@ -12,10 +12,10 @@ import per.goweii.anylayer.dialog.DialogLayer
 import per.goweii.anylayer.widget.SwipeLayout
 import per.goweii.anypermission.RequestListener
 import com.pigeon.basic.core.permission.PermissionUtils
-import com.pigeon.basic.ui.toast.ToastMaker
-import com.pigeon.basic.utils.bitmap.BitmapUtils
-import com.pigeon.basic.utils.ext.gone
-import com.pigeon.basic.utils.ext.visible
+import com.pigeon.basic.core.toast.ToastMaker
+import com.pigeon.basic.core.utils.bitmap.BitmapUtils
+import com.pigeon.basic.core.utils.ext.gone
+import com.pigeon.basic.core.utils.ext.visible
 import per.goweii.codex.decoder.CodeDecoder
 import per.goweii.codex.processor.zxing.ZXingMultiDecodeQRCodeProcessor
 import com.pigeon.cloud.R
@@ -95,7 +95,7 @@ class ImageMenuDialog(
     private fun saveBitmap(bitmap: Bitmap) {
         PermissionUtils.request(object : RequestListener {
             override fun onSuccess() {
-                if (BitmapUtils.saveGallery(bitmap, "wanandroid_article_image_${System.currentTimeMillis()}")) {
+                if (com.pigeon.basic.core.utils.bitmap.BitmapUtils.saveGallery(bitmap, "wanandroid_article_image_${System.currentTimeMillis()}")) {
                     ToastMaker.showShort("以保存到相册")
                 } else {
                     ToastMaker.showShort("保存失败")

@@ -12,10 +12,11 @@ import androidx.recyclerview.widget.RecyclerView;
 import com.chad.library.adapter.base.BaseQuickAdapter;
 import com.kennyc.view.MultiStateView;
 import com.pigeon.basic.core.base.BaseActivity;
-import com.pigeon.basic.ui.toast.ToastMaker;
-import com.pigeon.basic.utils.AnimatorUtils;
-import com.pigeon.basic.utils.listener.OnClickListener2;
-import com.pigeon.basic.utils.listener.SimpleListener;
+import com.pigeon.basic.core.toast.ToastMaker;
+import com.pigeon.basic.core.utils.AnimatorUtils;
+
+import com.pigeon.basic.core.utils.listener.OnClickListener2;
+import com.pigeon.basic.core.utils.listener.SimpleListener;
 import com.pigeon.cloud.R;
 import com.pigeon.cloud.module.main.dialog.WebDialog;
 import com.pigeon.cloud.module.mine.adapter.CoinRecordAdapter;

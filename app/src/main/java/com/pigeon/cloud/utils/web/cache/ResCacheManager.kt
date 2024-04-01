@@ -4,8 +4,8 @@ import android.net.Uri
 import android.util.LruCache
 import com.jakewharton.disklrucache.DiskLruCache
 import com.tencent.smtt.export.external.interfaces.WebResourceResponse
-import com.pigeon.basic.utils.coder.MD5Coder
-import com.pigeon.basic.utils.file.CacheUtils
+import com.pigeon.basic.core.utils.coder.MD5Coder
+import com.pigeon.basic.core.utils.file.CacheUtils
 import com.pigeon.cloud.utils.web.interceptor.WebHttpClient
 import com.pigeon.cloud.utils.web.interceptor.WebResUrlInterceptor.resp
 import java.io.File
@@ -29,7 +29,7 @@ object ResCacheManager {
             }
         }
         if (diskLruCache == null) {
-            val file = File(CacheUtils.getCacheDir(), "web/res")
+            val file = File(com.pigeon.basic.core.utils.file.CacheUtils.getCacheDir(), "web/res")
             if (!file.exists()) {
                 file.mkdirs()
             }
@@ -82,7 +82,7 @@ object ResCacheManager {
         synchronized(this) {
             openDiskLruCache()
             val diskLruCache = diskLruCache ?: return@synchronized
-            val key =MD5Coder.encode(url)
+            val key = com.pigeon.basic.core.utils.coder.MD5Coder.encode(url)
             try {
                 diskLruCache.get(key)?.let {
                     val res = it.getString(0)
@@ -102,7 +102,7 @@ object ResCacheManager {
         synchronized(this) {
             openDiskLruCache()
             val diskLruCache = diskLruCache ?: return@synchronized
-            val key = MD5Coder.encode(url)
+            val key = com.pigeon.basic.core.utils.coder.MD5Coder.encode(url)
             try {
                 val editor: DiskLruCache.Editor = diskLruCache.edit(key)
                 editor[0] = res

@@ -4,12 +4,9 @@ import android.text.TextUtils;
 
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
-import com.pigeon.basic.utils.SPUtils;
+import com.pigeon.basic.core.utils.SPUtils;
 
 import java.util.List;
-
-import com.pigeon.basic.utils.SPUtils;
-import com.pigeon.basic.utils.SPUtils;
 
 /**
  * @author yangzhikuan

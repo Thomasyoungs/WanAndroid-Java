@@ -5,6 +5,7 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.kennyc.view.MultiStateView;
+import com.pigeon.basic.core.utils.listener.SimpleListener;
 import com.pigeon.cloud.module.navigation.adapter.NaviAdapter;
 import com.pigeon.cloud.module.navigation.model.NaviBean;
 import com.pigeon.cloud.module.navigation.view.NaviView;
@@ -13,20 +14,13 @@ import java.util.List;
 
 import butterknife.BindView;
 import com.pigeon.basic.core.base.BaseFragment;
-import com.pigeon.basic.ui.toast.ToastMaker;
-import com.pigeon.basic.utils.listener.SimpleListener;
+import com.pigeon.basic.core.toast.ToastMaker;
 import com.pigeon.cloud.R;
 import com.pigeon.cloud.module.main.model.ArticleBean;
-import com.pigeon.cloud.module.navigation.adapter.NaviAdapter;
-import com.pigeon.cloud.module.navigation.model.NaviBean;
 import com.pigeon.cloud.module.navigation.presenter.NaviPresenter;
-import com.pigeon.cloud.module.navigation.view.NaviView;
 import com.pigeon.cloud.utils.MultiStateUtils;
 import com.pigeon.cloud.utils.RvScrollTopUtils;
 import com.pigeon.cloud.utils.UrlOpenUtils;
-import com.pigeon.cloud.module.navigation.adapter.NaviAdapter;
-import com.pigeon.cloud.module.navigation.model.NaviBean;
-import com.pigeon.cloud.module.navigation.view.NaviView;
 
 /**
  * @author yangzhikuan

@@ -10,30 +10,20 @@ import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 
-import com.pigeon.basic.ui.toast.ToastMaker;
-import com.pigeon.basic.utils.ResUtils;
-import com.pigeon.basic.utils.coder.MD5Coder;
-import com.pigeon.basic.utils.file.CacheUtils;
-import com.pigeon.basic.utils.file.FileUtils;
+import com.pigeon.basic.core.toast.ToastMaker;
+import com.pigeon.basic.core.utils.ResUtils;
+import com.pigeon.basic.core.utils.coder.MD5Coder;
+import com.pigeon.basic.core.utils.file.CacheUtils;
+import com.pigeon.basic.core.utils.file.FileUtils;
+import com.pigeon.cloud.R;
+import com.pigeon.cloud.module.main.activity.InstallApkActivity;
 
 import java.io.File;
 
 import per.goweii.anylayer.AnyLayer;
 import per.goweii.anylayer.Layer;
-import com.pigeon.basic.ui.toast.ToastMaker;
-import com.pigeon.basic.utils.ResUtils;
-import com.pigeon.basic.utils.coder.MD5Coder;
-import com.pigeon.basic.utils.file.CacheUtils;
-import com.pigeon.basic.utils.file.FileUtils;
 import per.goweii.rxhttp.download.DownloadInfo;
 import per.goweii.rxhttp.download.RxDownload;
-import com.pigeon.cloud.R;
-import com.pigeon.cloud.module.main.activity.InstallApkActivity;
-import com.pigeon.basic.ui.toast.ToastMaker;
-import com.pigeon.basic.utils.ResUtils;
-import com.pigeon.basic.utils.coder.MD5Coder;
-import com.pigeon.basic.utils.file.CacheUtils;
-import com.pigeon.basic.utils.file.FileUtils;
 
 
 /**

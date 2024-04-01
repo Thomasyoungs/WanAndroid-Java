@@ -6,8 +6,8 @@ import org.greenrobot.eventbus.Subscribe
 import org.greenrobot.eventbus.ThreadMode
 import com.pigeon.basic.core.base.BaseFragment
 import com.pigeon.basic.core.utils.SmartRefreshUtils
-import com.pigeon.basic.ui.toast.ToastMaker
-import com.pigeon.basic.utils.listener.SimpleListener
+import com.pigeon.basic.core.toast.ToastMaker
+import com.pigeon.basic.core.utils.listener.SimpleListener
 import com.pigeon.cloud.R
 import com.pigeon.cloud.event.CollectionEvent
 import com.pigeon.cloud.event.LoginEvent
@@ -102,7 +102,7 @@ class QuestionFragment : BaseFragment<QuestionPresenter>(), QuestionView, Scroll
         }
         rv.adapter = mAdapter
         setEmptyAndErrorClick(msv,
-            SimpleListener {
+            com.pigeon.basic.core.utils.listener.SimpleListener {
                 MultiStateUtils.toLoading(msv)
                 presenter.getQuestionList(currPage)
             })

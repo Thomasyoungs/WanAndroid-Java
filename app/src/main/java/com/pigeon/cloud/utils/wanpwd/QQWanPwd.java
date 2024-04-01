@@ -2,15 +2,9 @@ package com.pigeon.cloud.utils.wanpwd;
 
 import androidx.annotation.Nullable;
 
-import com.pigeon.basic.utils.AppInfoUtils;
-import com.pigeon.basic.utils.AppOpenUtils;
-import com.pigeon.basic.utils.Utils;
-import com.pigeon.basic.utils.AppInfoUtils;
-import com.pigeon.basic.utils.AppOpenUtils;
-import com.pigeon.basic.utils.Utils;
-import com.pigeon.basic.utils.AppInfoUtils;
-import com.pigeon.basic.utils.AppOpenUtils;
-import com.pigeon.basic.utils.Utils;
+import com.pigeon.basic.core.utils.AppInfoUtils;
+import com.pigeon.basic.core.utils.AppOpenUtils;
+import com.pigeon.basic.core.utils.Utils;
 
 /**
  * @author yangzhikuan

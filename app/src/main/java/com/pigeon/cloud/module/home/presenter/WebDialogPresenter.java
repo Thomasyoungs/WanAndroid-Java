@@ -1,8 +1,8 @@
 package com.pigeon.cloud.module.home.presenter;
 
 import com.pigeon.basic.core.base.BasePresenter;
-import com.pigeon.basic.utils.listener.SimpleCallback;
-import com.pigeon.basic.utils.listener.SimpleListener;
+import com.pigeon.basic.core.utils.listener.SimpleCallback;
+import com.pigeon.basic.core.utils.listener.SimpleListener;
 import com.pigeon.cloud.db.executor.ReadLaterExecutor;
 import com.pigeon.cloud.db.model.ReadLaterModel;
 import com.pigeon.cloud.event.CollectionEvent;

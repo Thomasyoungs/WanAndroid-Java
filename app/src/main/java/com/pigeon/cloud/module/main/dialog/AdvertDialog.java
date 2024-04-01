@@ -17,8 +17,8 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
 import com.pigeon.basic.core.glide.GlideHelper;
-import com.pigeon.basic.utils.ResUtils;
-import com.pigeon.basic.utils.display.DisplayInfoUtils;
+import com.pigeon.basic.core.utils.ResUtils;
+import com.pigeon.basic.core.utils.display.DisplayInfoUtils;
 import com.pigeon.cloud.R;
 import com.pigeon.cloud.module.home.model.ImageBean;
 import com.pigeon.cloud.module.main.model.AdvertBean;

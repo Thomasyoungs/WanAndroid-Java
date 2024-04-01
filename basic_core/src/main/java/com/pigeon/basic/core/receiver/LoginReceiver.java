@@ -8,8 +8,8 @@ import android.content.IntentFilter;
 
 import androidx.localbroadcastmanager.content.LocalBroadcastManager;
 
-import com.pigeon.basic.utils.Utils;
-import com.pigeon.basic.utils.listener.SimpleCallback;
+import com.pigeon.basic.core.utils.Utils;
+import com.pigeon.basic.core.utils.listener.SimpleCallback;
 
 /**
  * @author yangzhikuan

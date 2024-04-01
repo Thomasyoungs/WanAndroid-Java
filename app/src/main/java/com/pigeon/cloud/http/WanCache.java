@@ -8,6 +8,10 @@ import com.google.gson.JsonArray;
 import com.google.gson.JsonElement;
 import com.google.gson.JsonParser;
 import com.jakewharton.disklrucache.DiskLruCache;
+import com.pigeon.basic.core.utils.coder.MD5Coder;
+import com.pigeon.basic.core.utils.file.CacheUtils;
+import com.pigeon.basic.core.utils.listener.SimpleListener;
+import com.pigeon.cloud.utils.UserUtils;
 
 import java.io.File;
 import java.io.IOException;
@@ -21,10 +25,6 @@ import io.reactivex.android.schedulers.AndroidSchedulers;
 import io.reactivex.disposables.Disposable;
 import io.reactivex.functions.Consumer;
 import io.reactivex.schedulers.Schedulers;
-import com.pigeon.basic.utils.coder.MD5Coder;
-import com.pigeon.basic.utils.file.CacheUtils;
-import com.pigeon.basic.utils.listener.SimpleListener;
-import com.pigeon.cloud.utils.UserUtils;
 
 /**
  * @author yangzhikuan

@@ -2,7 +2,7 @@ package com.pigeon.basic.core;
 
 import android.app.Activity;
 
-import com.pigeon.basic.utils.listener.SimpleCallback;
+import com.pigeon.basic.core.utils.listener.SimpleCallback;
 
 /**
  * 描述：

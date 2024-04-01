@@ -11,9 +11,9 @@ import androidx.viewpager.widget.ViewPager;
 
 import com.pigeon.basic.core.adapter.FixedFragmentPagerAdapter;
 import com.pigeon.basic.core.base.BaseActivity;
-import com.pigeon.basic.ui.toast.ToastMaker;
-import com.pigeon.basic.utils.SoftInputHelper;
-import com.pigeon.basic.utils.display.DisplayInfoUtils;
+import com.pigeon.basic.core.toast.ToastMaker;
+import com.pigeon.basic.core.utils.SoftInputHelper;
+import com.pigeon.basic.core.utils.display.DisplayInfoUtils;
 import com.pigeon.cloud.R;
 import com.pigeon.cloud.module.login.fragment.LoginFragment;
 import com.pigeon.cloud.module.login.fragment.RegisterFragment;

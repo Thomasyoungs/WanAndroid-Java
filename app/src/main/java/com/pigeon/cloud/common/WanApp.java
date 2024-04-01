@@ -1,11 +1,7 @@
 package com.pigeon.cloud.common;
 
 import com.pigeon.basic.core.base.BaseApp;
-import com.pigeon.basic.utils.InitTaskRunner;
-import com.pigeon.basic.core.base.BaseApp;
-import com.pigeon.basic.utils.InitTaskRunner;
-import com.pigeon.basic.core.base.BaseApp;
-import com.pigeon.basic.utils.InitTaskRunner;
+import com.pigeon.basic.core.utils.InitTaskRunner;
 
 /**
  * @author yangzhikuan

@@ -7,11 +7,9 @@ import androidx.annotation.Nullable;
 
 import com.google.gson.Gson;
 import com.google.gson.JsonSyntaxException;
-import com.pigeon.basic.utils.SPUtils;
+import com.pigeon.basic.core.utils.SPUtils;
 
-import com.pigeon.basic.utils.SPUtils;
 import com.pigeon.cloud.module.main.model.ConfigBean;
-import com.pigeon.basic.utils.SPUtils;
 
 /**
  * @author yangzhikuan

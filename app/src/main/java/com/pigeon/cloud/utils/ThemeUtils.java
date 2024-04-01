@@ -10,7 +10,7 @@ import androidx.annotation.NonNull;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.pigeon.basic.utils.SPUtils;
+import com.pigeon.basic.core.utils.SPUtils;
 import com.pigeon.cloud.R;
 import com.pigeon.cloud.module.main.activity.MainActivity;
 import com.pigeon.cloud.module.main.activity.theme.MainActivityGold;

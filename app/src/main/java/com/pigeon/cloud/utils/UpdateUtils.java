@@ -2,8 +2,8 @@ package com.pigeon.cloud.utils;
 
 import java.util.Date;
 
-import com.pigeon.basic.utils.AppInfoUtils;
-import com.pigeon.basic.utils.SPUtils;
+import com.pigeon.basic.core.utils.AppInfoUtils;
+import com.pigeon.basic.core.utils.SPUtils;
 import com.pigeon.cloud.module.main.model.UpdateBean;
 
 /**

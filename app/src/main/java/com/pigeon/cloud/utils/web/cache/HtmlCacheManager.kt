@@ -2,8 +2,8 @@ package com.pigeon.cloud.utils.web.cache
 
 import com.jakewharton.disklrucache.DiskLruCache
 import kotlinx.coroutines.*
-import com.pigeon.basic.utils.coder.MD5Coder
-import com.pigeon.basic.utils.file.CacheUtils
+import com.pigeon.basic.core.utils.coder.MD5Coder
+import com.pigeon.basic.core.utils.file.CacheUtils
 import com.pigeon.cloud.utils.web.interceptor.WebHttpClient
 import com.pigeon.cloud.utils.web.interceptor.WebHttpClient.stringRespBody
 import java.io.File
@@ -21,7 +21,7 @@ object HtmlCacheManager : CoroutineScope by GlobalScope {
             }
         }
         if (diskLruCache == null) {
-            val file = File(CacheUtils.getCacheDir(), "web/html")
+            val file = File(com.pigeon.basic.core.utils.file.CacheUtils.getCacheDir(), "web/html")
             if (!file.exists()) {
                 file.mkdirs()
             }
@@ -59,7 +59,7 @@ object HtmlCacheManager : CoroutineScope by GlobalScope {
             submitJobs[url]?.cancel()
             openDiskLruCache()
             val diskLruCache = diskLruCache ?: return@synchronized
-            val key = MD5Coder.encode(url)
+            val key = com.pigeon.basic.core.utils.coder.MD5Coder.encode(url)
             try {
                 diskLruCache.get(key)?.let {
                     val html = it.getString(0)
@@ -77,7 +77,7 @@ object HtmlCacheManager : CoroutineScope by GlobalScope {
         synchronized(this) {
             openDiskLruCache()
             val diskLruCache = diskLruCache ?: return@synchronized
-            val key = MD5Coder.encode(url)
+            val key = com.pigeon.basic.core.utils.coder.MD5Coder.encode(url)
             try {
                 val editor: DiskLruCache.Editor = diskLruCache.edit(key)
                 editor[0] = html
@@ -90,7 +90,7 @@ object HtmlCacheManager : CoroutineScope by GlobalScope {
 
     private fun hasSaved(url: String): Boolean {
         openDiskLruCache()
-        val key = MD5Coder.encode(url)
+        val key = com.pigeon.basic.core.utils.coder.MD5Coder.encode(url)
         try {
             diskLruCache?.get(key)?.let {
                 return true

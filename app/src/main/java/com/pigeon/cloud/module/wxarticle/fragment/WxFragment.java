@@ -3,18 +3,10 @@ package com.pigeon.cloud.module.wxarticle.fragment;
 import androidx.annotation.Nullable;
 import androidx.viewpager.widget.ViewPager;
 
-import com.pigeon.cloud.module.wxarticle.view.WxView;
-
-import net.lucode.hackware.magicindicator.buildins.commonnavigator.CommonNavigator;
-
-import java.util.List;
-
-import butterknife.BindView;
-import per.goweii.actionbarex.ActionBarEx;
 import com.pigeon.basic.core.adapter.MultiFragmentPagerAdapter;
 import com.pigeon.basic.core.base.BaseFragment;
-import com.pigeon.basic.ui.toast.ToastMaker;
-import com.pigeon.basic.utils.listener.SimpleCallback;
+import com.pigeon.basic.core.toast.ToastMaker;
+import com.pigeon.basic.core.utils.listener.SimpleCallback;
 import com.pigeon.cloud.R;
 import com.pigeon.cloud.common.Config;
 import com.pigeon.cloud.event.ScrollTopEvent;
@@ -23,7 +15,13 @@ import com.pigeon.cloud.module.wxarticle.presenter.WxPresenter;
 import com.pigeon.cloud.module.wxarticle.view.WxView;
 import com.pigeon.cloud.utils.MagicIndicatorUtils;
 import com.pigeon.cloud.utils.RvScrollTopUtils;
-import com.pigeon.cloud.module.wxarticle.view.WxView;
+
+import net.lucode.hackware.magicindicator.buildins.commonnavigator.CommonNavigator;
+
+import java.util.List;
+
+import butterknife.BindView;
+import per.goweii.actionbarex.ActionBarEx;
 
 /**
  * @author yangzhikuan

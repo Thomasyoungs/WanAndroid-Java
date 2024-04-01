@@ -51,7 +51,7 @@
                         app:layout_collapseMode="parallax"
                         app:layout_collapseParallaxMultiplier="0.6">
 
-                        <com.pigeon.basic.ui.widget.StatusBarView
+                        <com.pigeon.basic.core.widget.StatusBarView
                             android:id="@+id/sbv"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"

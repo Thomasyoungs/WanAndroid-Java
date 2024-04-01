@@ -1,6 +1,6 @@
 package com.pigeon.cloud.utils;
 
-import com.pigeon.basic.utils.SPUtils;
+import com.pigeon.basic.core.utils.SPUtils;
 
 /**
  * @author yangzhikuan

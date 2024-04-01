@@ -10,6 +10,7 @@ import androidx.recyclerview.widget.RecyclerView;
 import com.chad.library.adapter.base.BaseQuickAdapter;
 import com.chad.library.adapter.base.BaseViewHolder;
 import com.kennyc.view.MultiStateView;
+import com.pigeon.basic.core.utils.listener.SimpleListener;
 import com.scwang.smart.refresh.layout.SmartRefreshLayout;
 
 import org.greenrobot.eventbus.Subscribe;
@@ -18,8 +19,7 @@ import org.greenrobot.eventbus.ThreadMode;
 import butterknife.BindView;
 import com.pigeon.basic.core.base.BaseFragment;
 import com.pigeon.basic.core.utils.SmartRefreshUtils;
-import com.pigeon.basic.ui.toast.ToastMaker;
-import com.pigeon.basic.utils.listener.SimpleListener;
+import com.pigeon.basic.core.toast.ToastMaker;
 import com.pigeon.cloud.R;
 import com.pigeon.cloud.event.CollectionEvent;
 import com.pigeon.cloud.event.LoginEvent;

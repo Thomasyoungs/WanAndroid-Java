@@ -7,7 +7,7 @@ import androidx.viewpager.widget.ViewPager;
 import com.pigeon.basic.core.adapter.FixedFragmentPagerAdapter;
 import com.pigeon.basic.core.base.BaseFragment;
 import com.pigeon.basic.core.mvp.MvpPresenter;
-import com.pigeon.basic.utils.listener.SimpleCallback;
+import com.pigeon.basic.core.utils.listener.SimpleCallback;
 import com.pigeon.cloud.common.Config;
 import com.pigeon.cloud.module.knowledge.fragment.KnowledgeFragment;
 import com.pigeon.cloud.module.navigation.fragment.NaviFragment;
@@ -16,25 +16,8 @@ import com.pigeon.cloud.utils.RvScrollTopUtils;
 
 import butterknife.BindView;
 import per.goweii.actionbarex.ActionBarEx;
-import com.pigeon.basic.core.adapter.FixedFragmentPagerAdapter;
-import com.pigeon.basic.core.base.BaseFragment;
-import com.pigeon.basic.core.mvp.MvpPresenter;
-import com.pigeon.basic.utils.listener.SimpleCallback;
+
 import com.pigeon.cloud.R;
-import com.pigeon.cloud.common.Config;
-import com.pigeon.cloud.module.knowledge.fragment.KnowledgeFragment;
-import com.pigeon.cloud.module.navigation.fragment.NaviFragment;
-import com.pigeon.cloud.utils.MagicIndicatorUtils;
-import com.pigeon.cloud.utils.RvScrollTopUtils;
-import com.pigeon.basic.core.adapter.FixedFragmentPagerAdapter;
-import com.pigeon.basic.core.base.BaseFragment;
-import com.pigeon.basic.core.mvp.MvpPresenter;
-import com.pigeon.basic.utils.listener.SimpleCallback;
-import com.pigeon.cloud.common.Config;
-import com.pigeon.cloud.module.knowledge.fragment.KnowledgeFragment;
-import com.pigeon.cloud.module.navigation.fragment.NaviFragment;
-import com.pigeon.cloud.utils.MagicIndicatorUtils;
-import com.pigeon.cloud.utils.RvScrollTopUtils;
 
 /**
  * @author yangzhikuan

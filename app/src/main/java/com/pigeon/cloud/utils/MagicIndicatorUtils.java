@@ -10,7 +10,10 @@ import androidx.fragment.app.FragmentPagerAdapter;
 import androidx.viewpager.widget.ViewPager;
 
 import com.pigeon.basic.core.adapter.MultiFragmentPagerAdapter;
-import com.pigeon.basic.utils.ResUtils;
+import com.pigeon.basic.core.utils.ResUtils;
+import com.pigeon.basic.core.utils.display.DisplayInfoUtils;
+import com.pigeon.basic.core.utils.listener.SimpleCallback;
+import com.pigeon.cloud.R;
 
 import net.lucode.hackware.magicindicator.MagicIndicator;
 import net.lucode.hackware.magicindicator.ViewPagerHelper;
@@ -19,14 +22,6 @@ import net.lucode.hackware.magicindicator.buildins.commonnavigator.abs.CommonNav
 import net.lucode.hackware.magicindicator.buildins.commonnavigator.abs.IPagerIndicator;
 import net.lucode.hackware.magicindicator.buildins.commonnavigator.abs.IPagerTitleView;
 import net.lucode.hackware.magicindicator.buildins.commonnavigator.titles.SimplePagerTitleView;
-
-import com.pigeon.basic.core.adapter.MultiFragmentPagerAdapter;
-import com.pigeon.basic.utils.ResUtils;
-import com.pigeon.basic.utils.display.DisplayInfoUtils;
-import com.pigeon.basic.utils.listener.SimpleCallback;
-import com.pigeon.cloud.R;
-import com.pigeon.basic.core.adapter.MultiFragmentPagerAdapter;
-import com.pigeon.basic.utils.ResUtils;
 
 /**
  * @author yangzhikuan

@@ -1,8 +1,8 @@
 package com.pigeon.cloud.utils.web.js
 
 import com.tencent.smtt.sdk.WebView
-import com.pigeon.basic.utils.DebugUtils
-import com.pigeon.basic.utils.Utils
+import com.pigeon.basic.core.utils.DebugUtils
+import com.pigeon.basic.core.utils.Utils
 
 /**
  * @author yangzhikuan

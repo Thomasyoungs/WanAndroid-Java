@@ -1,8 +1,8 @@
 package com.pigeon.cloud.db.executor
 
 import androidx.room.withTransaction
-import com.pigeon.basic.utils.listener.SimpleCallback
-import com.pigeon.basic.utils.listener.SimpleListener
+import com.pigeon.basic.core.utils.listener.SimpleCallback
+import com.pigeon.basic.core.utils.listener.SimpleListener
 import com.pigeon.cloud.common.Config
 import com.pigeon.cloud.db.WanDb.db
 import com.pigeon.cloud.db.model.ReadRecordModel
@@ -15,8 +15,8 @@ class ReadRecordExecutor : DbExecutor() {
 
     fun findByLinks(
         link: List<String>,
-        success: SimpleCallback<List<ReadRecordModel>>,
-        error: SimpleCallback<Throwable>
+        success: com.pigeon.basic.core.utils.listener.SimpleCallback<List<ReadRecordModel>>,
+        error: com.pigeon.basic.core.utils.listener.SimpleCallback<Throwable>
     ) {
         execute({
             db().readRecordDao().findByLinks(link)
@@ -31,8 +31,8 @@ class ReadRecordExecutor : DbExecutor() {
         link: String,
         title: String,
         percent: Float,
-        success: SimpleCallback<ReadRecordModel>,
-        error: SimpleListener
+        success: com.pigeon.basic.core.utils.listener.SimpleCallback<ReadRecordModel>,
+        error: com.pigeon.basic.core.utils.listener.SimpleListener
     ) {
         val time = System.currentTimeMillis()
         val model = ReadRecordModel(
@@ -53,8 +53,8 @@ class ReadRecordExecutor : DbExecutor() {
         link: String,
         percent: Float,
         lastTime: Long,
-        success: SimpleCallback<ReadRecordModel>,
-        error: SimpleListener
+        success: com.pigeon.basic.core.utils.listener.SimpleCallback<ReadRecordModel>,
+        error: com.pigeon.basic.core.utils.listener.SimpleListener
     ) {
         val p = (percent.coerceIn(0f, 1f) * ReadRecordModel.MAX_PERCENT).toInt()
         execute({
@@ -71,7 +71,7 @@ class ReadRecordExecutor : DbExecutor() {
         })
     }
 
-    fun remove(link: String, success: SimpleListener, error: SimpleListener) {
+    fun remove(link: String, success: com.pigeon.basic.core.utils.listener.SimpleListener, error: com.pigeon.basic.core.utils.listener.SimpleListener) {
         execute({
             db().readRecordDao().delete(link)
         }, {
@@ -81,7 +81,7 @@ class ReadRecordExecutor : DbExecutor() {
         })
     }
 
-    fun removeAll(success: SimpleListener, error: SimpleListener) {
+    fun removeAll(success: com.pigeon.basic.core.utils.listener.SimpleListener, error: com.pigeon.basic.core.utils.listener.SimpleListener) {
         execute({
             db().readRecordDao().deleteAll()
         }, {
@@ -94,8 +94,8 @@ class ReadRecordExecutor : DbExecutor() {
     fun getList(
         from: Int,
         count: Int,
-        success: SimpleCallback<List<ReadRecordModel>>,
-        error: SimpleListener
+        success: com.pigeon.basic.core.utils.listener.SimpleCallback<List<ReadRecordModel>>,
+        error: com.pigeon.basic.core.utils.listener.SimpleListener
     ) {
         execute({
             db().readRecordDao().findAll(from, count)

@@ -5,7 +5,6 @@ android {
 }
 
 dependencies {
-    api project(":basic_ui")
     implementation rootProject.ext.dependencies.multidex
     api rootProject.ext.dependencies.localbroadcastmanager
     api rootProject.ext.dependencies.butterknife
@@ -22,4 +21,32 @@ dependencies {
     api rootProject.ext.dependencies.anyPermission
     api rootProject.ext.dependencies.swipeBack
     api rootProject.ext.dependencies.lazyfragment
+
+
+    api rootProject.ext.dependencies.ponyoLog
+    api rootProject.ext.dependencies.ponyoCrash
+    api rootProject.ext.dependencies.androidxAppcompat
+
+
+    api rootProject.ext.dependencies.design
+    api rootProject.ext.dependencies.smartRefreshLayoutKernel
+    api rootProject.ext.dependencies.smartRefreshHeaderClassics
+    api rootProject.ext.dependencies.smartRefreshHeaderTwoLevel
+    api rootProject.ext.dependencies.smartRefreshFooterClassics
+    api rootProject.ext.dependencies.bravh
+    api rootProject.ext.dependencies.recyclerview
+    api rootProject.ext.dependencies.anyLayer
+    api rootProject.ext.dependencies.actionBarEx
+    api rootProject.ext.dependencies.percentImageView
+    api rootProject.ext.dependencies.roundedimageview
+    api rootProject.ext.dependencies.circleimageview
+    api rootProject.ext.dependencies.magicIndicator
+    api rootProject.ext.dependencies.materialProgressBar
+    api rootProject.ext.dependencies.shadowLayout
+    api rootProject.ext.dependencies.blurred
+    api rootProject.ext.dependencies.visualeffectCore
+    api rootProject.ext.dependencies.visualeffectView
+    api rootProject.ext.dependencies.visualeffectBlur
+
+    implementation 'com.github.woxingxiao:BounceScrollView:1.5-androidx'
 }

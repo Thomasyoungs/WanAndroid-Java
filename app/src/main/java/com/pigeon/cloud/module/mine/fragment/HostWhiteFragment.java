@@ -10,8 +10,8 @@ import androidx.recyclerview.widget.RecyclerView;
 import com.chad.library.adapter.base.BaseQuickAdapter;
 import com.pigeon.basic.core.base.BaseFragment;
 import com.pigeon.basic.core.base.BasePresenter;
-import com.pigeon.basic.utils.listener.OnClickListener2;
-import com.pigeon.basic.utils.listener.SimpleCallback;
+import com.pigeon.basic.core.utils.listener.OnClickListener2;
+import com.pigeon.basic.core.utils.listener.SimpleCallback;
 import com.pigeon.cloud.module.mine.adapter.HostInterruptAdapter;
 import com.pigeon.cloud.module.mine.dialog.AddHostDialog;
 import com.pigeon.cloud.module.mine.model.HostEntity;
@@ -23,27 +23,9 @@ import java.util.ArrayList;
 import java.util.List;
 
 import butterknife.BindView;
-import com.pigeon.basic.core.base.BaseFragment;
-import com.pigeon.basic.core.base.BasePresenter;
-import com.pigeon.basic.utils.listener.OnClickListener2;
-import com.pigeon.basic.utils.listener.SimpleCallback;
+
+
 import com.pigeon.cloud.R;
-import com.pigeon.cloud.module.mine.adapter.HostInterruptAdapter;
-import com.pigeon.cloud.module.mine.dialog.AddHostDialog;
-import com.pigeon.cloud.module.mine.model.HostEntity;
-import com.pigeon.cloud.utils.RvConfigUtils;
-import com.pigeon.cloud.utils.RvScrollTopUtils;
-import com.pigeon.cloud.utils.SettingUtils;
-import com.pigeon.basic.core.base.BaseFragment;
-import com.pigeon.basic.core.base.BasePresenter;
-import com.pigeon.basic.utils.listener.OnClickListener2;
-import com.pigeon.basic.utils.listener.SimpleCallback;
-import com.pigeon.cloud.module.mine.adapter.HostInterruptAdapter;
-import com.pigeon.cloud.module.mine.dialog.AddHostDialog;
-import com.pigeon.cloud.module.mine.model.HostEntity;
-import com.pigeon.cloud.utils.RvConfigUtils;
-import com.pigeon.cloud.utils.RvScrollTopUtils;
-import com.pigeon.cloud.utils.SettingUtils;
 
 /**
  * @author yangzhikuan

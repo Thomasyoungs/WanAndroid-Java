@@ -19,10 +19,10 @@ import kotlinx.android.synthetic.main.activity_article_float_btn.*
 import per.goweii.anylayer.Layer
 import per.goweii.anylayer.guide.GuideLayer
 import com.pigeon.basic.core.base.BaseActivity
-import com.pigeon.basic.ui.toast.ToastMaker
-import com.pigeon.basic.utils.ResUtils
-import com.pigeon.basic.utils.ext.invisible
-import com.pigeon.basic.utils.ext.visible
+import com.pigeon.basic.core.toast.ToastMaker
+import com.pigeon.basic.core.utils.ResUtils
+import com.pigeon.basic.core.utils.ext.invisible
+import com.pigeon.basic.core.utils.ext.visible
 import per.goweii.statusbarcompat.StatusBarCompat
 import per.goweii.swipeback.SwipeBackAbility
 import com.pigeon.cloud.R

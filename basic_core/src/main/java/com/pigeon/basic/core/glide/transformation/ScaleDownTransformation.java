@@ -8,10 +8,9 @@ import androidx.annotation.NonNull;
 
 import com.bumptech.glide.load.engine.bitmap_recycle.BitmapPool;
 import com.bumptech.glide.load.resource.bitmap.BitmapTransformation;
+import com.pigeon.basic.core.utils.display.DisplayInfoUtils;
 
 import java.security.MessageDigest;
-
-import com.pigeon.basic.utils.display.DisplayInfoUtils;
 
 /**
  * 描述：高斯模糊

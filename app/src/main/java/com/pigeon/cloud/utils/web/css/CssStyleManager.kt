@@ -1,6 +1,6 @@
 package com.pigeon.cloud.utils.web.css
 
-import com.pigeon.basic.utils.file.CacheUtils
+import com.pigeon.basic.core.utils.file.CacheUtils
 import com.pigeon.cloud.common.Constant
 import com.pigeon.cloud.utils.web.interceptor.WebHttpClient
 import java.io.File
@@ -91,7 +91,7 @@ object CssStyleManager {
     }
 
     private fun getCacheFile(name: String): File {
-        return File(CacheUtils.getFilesDir(), "web/css/${name}.css")
+        return File(com.pigeon.basic.core.utils.file.CacheUtils.getFilesDir(), "web/css/${name}.css")
     }
 
     private fun getFromNet(name: String): String? {

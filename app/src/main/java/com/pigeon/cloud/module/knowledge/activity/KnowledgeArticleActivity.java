@@ -20,7 +20,7 @@ import butterknife.BindView;
 import per.goweii.actionbarex.common.ActionBarCommon;
 import com.pigeon.basic.core.adapter.MultiFragmentPagerAdapter;
 import com.pigeon.basic.core.base.BaseActivity;
-import com.pigeon.basic.utils.listener.SimpleCallback;
+import com.pigeon.basic.core.utils.listener.SimpleCallback;
 import com.pigeon.cloud.R;
 import com.pigeon.cloud.common.Config;
 import com.pigeon.cloud.event.ScrollTopEvent;

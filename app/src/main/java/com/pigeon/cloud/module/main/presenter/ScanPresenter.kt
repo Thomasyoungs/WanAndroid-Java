@@ -5,7 +5,7 @@ import android.graphics.Bitmap
 import android.graphics.BitmapFactory
 import android.net.Uri
 import com.pigeon.basic.core.base.BasePresenter
-import com.pigeon.basic.utils.bitmap.BitmapUtils
+import com.pigeon.basic.core.utils.bitmap.BitmapUtils
 import com.pigeon.cloud.module.main.view.ScanView
 import kotlin.math.min
 
@@ -16,7 +16,7 @@ import kotlin.math.min
 class ScanPresenter : BasePresenter<ScanView>() {
 
     fun getBitmapFromPath(path: String): Bitmap? {
-        val uri = BitmapUtils.getImageContentUri(context, path)
+        val uri = com.pigeon.basic.core.utils.bitmap.BitmapUtils.getImageContentUri(context, path)
         uri ?: return null
         val bm = getBitmapFromUri(context, uri)
         bm ?: return null

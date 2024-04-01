@@ -14,8 +14,8 @@ import per.goweii.anylayer.utils.AnimatorHelper
 import per.goweii.anylayer.widget.SwipeLayout
 import com.pigeon.basic.core.glide.GlideHelper
 import com.pigeon.basic.core.glide.transformation.ScaleDownTransformation
-import com.pigeon.basic.utils.ext.gone
-import com.pigeon.basic.utils.ext.visible
+import com.pigeon.basic.core.utils.ext.gone
+import com.pigeon.basic.core.utils.ext.visible
 import com.pigeon.cloud.R
 import com.pigeon.cloud.widget.ImagePreviewView
 

@@ -8,7 +8,7 @@ import androidx.annotation.Nullable;
 
 import com.pigeon.basic.core.base.BaseActivity;
 import com.pigeon.basic.core.mvp.MvpPresenter;
-import com.pigeon.basic.utils.LogUtils;
+import com.pigeon.basic.core.utils.LogUtils;
 import com.pigeon.cloud.common.WanApp;
 import com.pigeon.cloud.utils.ThemeUtils;
 
@@ -16,16 +16,6 @@ import java.io.File;
 
 import per.goweii.anypermission.AnyPermission;
 import per.goweii.anypermission.RequestListener;
-import com.pigeon.basic.core.base.BaseActivity;
-import com.pigeon.basic.core.mvp.MvpPresenter;
-import com.pigeon.basic.utils.LogUtils;
-import com.pigeon.cloud.common.WanApp;
-import com.pigeon.cloud.utils.ThemeUtils;
-import com.pigeon.basic.core.base.BaseActivity;
-import com.pigeon.basic.core.mvp.MvpPresenter;
-import com.pigeon.basic.utils.LogUtils;
-import com.pigeon.cloud.common.WanApp;
-import com.pigeon.cloud.utils.ThemeUtils;
 
 public class InstallApkActivity extends BaseActivity {
     private static final String APK_PATH = "apk_path";

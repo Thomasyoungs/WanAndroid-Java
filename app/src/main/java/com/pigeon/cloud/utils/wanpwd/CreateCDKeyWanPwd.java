@@ -4,19 +4,11 @@ import android.text.TextUtils;
 
 import androidx.annotation.Nullable;
 
-import com.pigeon.basic.ui.toast.ToastMaker;
-import com.pigeon.basic.utils.CopyUtils;
+import com.pigeon.basic.core.toast.ToastMaker;
+import com.pigeon.basic.core.utils.CopyUtils;
 import com.pigeon.cloud.utils.UserUtils;
 import com.pigeon.cloud.utils.cdkey.CDKeyUtils;
-import com.pigeon.basic.ui.toast.ToastMaker;
-import com.pigeon.basic.utils.CopyUtils;
 import com.pigeon.cloud.BuildConfig;
-import com.pigeon.cloud.utils.UserUtils;
-import com.pigeon.cloud.utils.cdkey.CDKeyUtils;
-import com.pigeon.basic.ui.toast.ToastMaker;
-import com.pigeon.basic.utils.CopyUtils;
-import com.pigeon.cloud.utils.UserUtils;
-import com.pigeon.cloud.utils.cdkey.CDKeyUtils;
 
 /**
  * @author yangzhikuan
